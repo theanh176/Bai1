@@ -27,22 +27,24 @@
             android:text="TextView"
             android:id="@+id/tvDes"/>
     </TableRow>
+
     <ImageView
         android:id="@+id/imgViewEdit"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="5dp"
+        android:background="@color/white"
         app:srcCompat="@drawable/ic_edit"
-        android:background="#DCD6D6"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="19dp" />
+
     <ImageView
         android:id="@+id/imgViewDelete"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="5dp"
+        android:background="@color/white"
         app:srcCompat="@drawable/ic_delete"
-        android:background="#FFDCD6D6"
         tools:layout_editor_absoluteX="297dp"
         tools:layout_editor_absoluteY="19dp" />
 </LinearLayout>
